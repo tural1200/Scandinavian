@@ -1,0 +1,125 @@
+@import url(/css/header.css);
+main {
+    .container {
+        margin-top: 4rem;
+        min-height: 20rem;
+
+        .heading {
+            text-align: center;
+            
+            h1 {
+                display: inline-block;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 48px;
+                box-shadow: inset 0 -0.45em 0 #fcefcf;
+                margin-bottom: 2rem;
+            }
+
+            p {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 4rem;
+                em {
+                    width: 40rem;
+                    a {
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 4rem;
+            .box {
+                width: 21rem;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+               
+
+                .photo {
+                    position: relative;
+                        &:hover {
+                            
+                            button {
+                                display: block;
+                            }
+                        }
+                    
+                        button {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 3rem;
+                            padding: 0;
+                            outline: none;
+                            border: none;
+                            display: none;
+
+                            &:hover {
+                                p {
+                                    background-color: #2980B9;
+                                }
+                            }
+                            p {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                height: 100%;
+                                background-color: black;
+                                color: white;
+                                margin: 0;
+
+                                
+                    
+                            }
+                        }
+
+                    .sold {
+                        position: absolute;
+                        top: 0;
+                        left: -10px;
+                        span {
+                            background-color: black;
+                            color: white;
+                            border-radius: 50%;
+                            padding: 25px 10px;
+                        }
+                    }
+
+                    a {
+                        img {
+                            width: 100% ;
+                        }
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    outline: none;
+                    img {
+                        width: 100%;
+                    }        
+                }
+
+                .about {
+                    h3 {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 21px;
+                        margin-top: 27px;
+
+                    }
+
+                    
+                }
+            }
+        }
+    }
+}
+
+@import url(/css/footer.css);

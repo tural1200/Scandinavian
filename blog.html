@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts Awesome -->
+    <script
+      src="https://kit.fontawesome.com/1ed0be0e21.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/css/blog.css"/>
+    <title>Shop – Scandinavian</title>
+  </head>
+  <body>
+    <header>
+      <!-- Top Bar -->
+      <div class="container-fluid top-bar">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 left-col">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-pinterest"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-dribbble"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 right-col">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="far fa-life-ring"></i
+                    ><span>Customer Service</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-user"></i><span>My Account</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Logo Section -->
+      <div class="container-fluid logo">
+        <a href="#"
+          ><img src="/img/logo/scandinavian-logo.png" alt="Scandinavian"
+        /></a>
+      </div>
+
+      <!-- Burger and Cart logos -->
+      <div class="container-fluid navbar">
+        <div class="row">
+          <!-- Nav Section -->
+          <div class="col-8 left-col">
+            <nav>
+              <div class="burger">
+                <i class="fas fa-bars toggle" onclick="myFunction()"></i>
+              </div>
+              <!-- Menu -->
+              <ul id="my-nav">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/shop.html">Shop</a></li>
+                <li><a href="/contact-us.html">Contact Us</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- Cart Section -->
+          <div class="col-4 right-col">
+            <div class="cart">
+              <a href="#"><img src="/img/logo/shopping-bag.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Heading -->
+      <div class="container">
+        <div class="heading">
+          <h1>Things we love</h1>
+          <p><em>posted in <strong>INSPIRATION</strong> by <strong>JOAKIM@SCANDINAVIAN</strong> on <strong>JANUARY 5, 2017</strong></em></p>
+        </div>
+      </div>
+      <!-- Cards -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+              <img src="/img/main/card-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">We’re always on the hunt for inspiring things on the web.</p>
+                <a href="#">READ MORE<span><i class="fas fa-chevron-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+              <img src="/img/main/card-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text"> Every Friday, we share a collection of pictures, videos and quotes around a specific subject. </p>
+                <a href="#">READ MORE<span><i class="fas fa-chevron-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 20rem;">
+              <img src="/img/main/card-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This week: Architecture.</p>
+                <a href="#">READ MORE<span><i class="fas fa-chevron-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Gallery section / Section 1 -->
+      <div class="container-fluid">
+        <div class="gallery">
+          <div class="box">
+            <a href="#"
+              ><img src="img/gallery/photo1.jpg" alt="Scandinavian"
+            /></a>
+          </div>
+          <div class="box">
+            <a href="#"
+              ><img src="/img/gallery/photo2.jpg" alt="Scandinavian"
+            /></a>
+          </div>
+          <div class="box">
+            <a href="#"
+              ><img src="/img/gallery/photo3.jpg" alt="Scandinavian"
+            /></a>
+          </div>
+          <div class="box">
+            <a href="#"
+              ><img src="/img/gallery/photo4.jpg" alt="Scandinavian"
+            /></a>
+          </div>
+          <div class="box">
+            <a href="#"
+              ><img src="/img/gallery/photo5.jpg" alt="Scandinavian"
+            /></a>
+          </div>
+          <div class="box">
+            <a href="#"
+              ><img src="/img/gallery/photo6.jpg" alt="Scandinavian"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <!-- Section 2 and 3 -->
+      <div class="container-fluid my-container">
+        <!-- Section 2 -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h4>Scandinavian</h4>
+              <p>
+                Scandinavian is a minimal and easy to use WooCommerce theme.
+                Make running an online shop fun again!
+              </p>
+            </div>
+            <div class="col-md-3">
+              <h4>Customer Service</h4>
+              <ul>
+                <a href="#"><li>Return Policy</li></a>
+                <a href="#"><li>Shipping & Delivery</li></a>
+                <a href="#"><li>Terms & Conditions</li></a>
+                <a href="#"><li>My Account</li></a>
+                <a href="#"><li>Contact Us</li></a>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h4>Get in touch</h4>
+              <p>
+                Scandinavian
+                <br />
+                Hamngatan 6
+                <br />
+                111 45 Stockholm
+              </p>
+              <a href="#">+46 8 123 45 67</a>
+              <a href="#">info@scandinavian.com</a>
+            </div>
+            <div class="col-md-3">
+              <h4>Subscribe</h4>
+              <p>Get 10% off your first order!</p>
+
+              <form action="form.php">
+                <input type="email" placeholder="E-mail" /> <br />
+                <button type="submit">SUBSCRIBE</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Section 3 -->
+        <div class="container my-container-2">
+          <div class="row">
+            <div class="col-md-6 left-col">
+              <p>© 2020 Scandinavian.</p>
+            </div>
+            <div class="col-md-6 right-col">
+              <div class="payment">
+                <img src="/img/logo/payment-logos.png" alt="payment" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

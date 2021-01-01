@@ -1,0 +1,188 @@
+
+@import url(/css/header.css);
+
+main {
+    margin: 4rem 0;
+    .container {
+        
+        .photo {
+            a {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .container-slider {
+
+        .heading {
+            margin-bottom: 20px;
+            text-align: center;
+            a {
+                font-family: 'Montserrat', sans-serif;
+                box-shadow: inset 0 -0.45em 0 #fcefcf;
+                font-size: 37px;
+                color: black;
+                text-decoration: none;
+            }
+        }
+
+        .slider {
+            position: relative;
+            .prev-arrow {
+                position: absolute;
+                top: -50px;
+                left: 35%;
+                cursor: pointer;
+                .fa-arrow-left {
+                    font-size: 20px;
+                    transition: transform 0.3s;
+                    &:hover {
+                        transform: translateX(-5px);
+                        
+                        
+                    }
+                }
+            }
+            
+
+            .next-arrow {
+                position: absolute;
+                top: -50px;
+                right: 35%;
+                cursor: pointer;
+                .fa-arrow-right {
+                    font-size: 20px;
+                    transition: transform 0.3s;
+                    &:hover {
+                        transform: translateX(5px);
+                        transition: 0.7s;
+                    }
+                }
+            }
+
+            .slider_items {
+                display: flex;
+                justify-content: center;
+                
+                .box {
+                    
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+                    text-align: center;
+                   
+
+                    .photo {
+                        position: relative;
+                        &:hover {
+                            
+                            button {
+                                display: block;
+                            }
+                        }
+                    
+                        button {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 3rem;
+                            padding: 0;
+                            outline: none;
+                            border: none;
+                            display: none;
+
+                            &:hover {
+                                p {
+                                    background-color: #2980B9;
+                                }
+                            }
+                            p {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                height: 100%;
+                                background-color: black;
+                                color: white;
+                                margin: 0;
+
+                                
+                    
+                            }
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        outline: none;
+                        img {
+                            width: 100%;
+                        }        
+                    }
+
+                    .about {
+                        h3 {
+                            font-family: 'Montserrat', sans-serif;
+                            font-size: 21px;
+                            margin-top: 27px;
+
+                        }
+
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import url(/css/footer.css);
+
+
+
+@media (max-width: 991px) {
+    main {
+        .container-slider {
+            .slider {
+                .prev-arrow {
+                    left: 10%;
+                }
+
+                .next-arrow {
+                    right: 10%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    main {
+        .container-slider {
+            .slider {
+                .prev-arrow {
+                    left: 5%;
+                }
+
+                .next-arrow {
+                    right: 5%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    main {
+        .container-slider {
+            .heading {
+                a {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

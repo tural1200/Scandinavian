@@ -1,0 +1,134 @@
+@import url(/css/header.css);
+@import url(/css/footer.css);
+main .container {
+  margin-top: 4rem;
+  min-height: 20rem;
+}
+
+main .container .heading {
+  text-align: center;
+}
+
+main .container .heading h1 {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  -webkit-box-shadow: inset 0 -0.45em 0 #fcefcf;
+          box-shadow: inset 0 -0.45em 0 #fcefcf;
+  margin-bottom: 2rem;
+}
+
+main .container .heading p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 4rem;
+}
+
+main .container .heading p em {
+  width: 40rem;
+}
+
+main .container .heading p em a {
+  color: black;
+}
+
+main .container .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+main .container .main-content .box {
+  width: 21rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+main .container .main-content .box .photo {
+  position: relative;
+}
+
+main .container .main-content .box .photo:hover button {
+  display: block;
+}
+
+main .container .main-content .box .photo button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  padding: 0;
+  outline: none;
+  border: none;
+  display: none;
+}
+
+main .container .main-content .box .photo button:hover p {
+  background-color: #2980B9;
+}
+
+main .container .main-content .box .photo button p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+main .container .main-content .box .photo .sold {
+  position: absolute;
+  top: 0;
+  left: -10px;
+}
+
+main .container .main-content .box .photo .sold span {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 25px 10px;
+}
+
+main .container .main-content .box .photo a img {
+  width: 100%;
+}
+
+main .container .main-content .box a {
+  text-decoration: none;
+  color: black;
+  outline: none;
+}
+
+main .container .main-content .box a img {
+  width: 100%;
+}
+
+main .container .main-content .box .about h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  margin-top: 27px;
+}
+/*# sourceMappingURL=shop.css.map */
